@@ -143,10 +143,10 @@ h1{
   top: 25%;
   left: 50%;
   transform: translatex(-50%);
-  background-image: url("../img/iphone-bg.png");
+  background-image: url("../img/slide1.jpg");
   background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 65%;
+  background-position: center;
+  background-size: 57%;
   min-width:500px;
 }
 .phone img{
@@ -187,9 +187,17 @@ h1{
   }
   .phone{
     top:10%;
-    background-size:61%;
+    background-size:53%;
   }
   .phone img{
     width: 65%;
+  }
+
+  .step-1 p{
+    margin-top: 20px;
+  }
+
+  .old-man:before{
+    background-position:30%;
   }
 }
