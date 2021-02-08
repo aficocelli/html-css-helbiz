@@ -3,3 +3,52 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+
+/* layout top header */
+
+/* struttura logo */
+.logo img{
+  height:14px;
+}
+
+/* struttura menu */
+.main-nav li, .lang-nav li{
+  display: inline-block;
+}
+.main-nav li:not(:last-child){
+  margin-right:40px;
+}
+.main-nav li a, .lang-nav span {
+  color:#000;
+  font-weight: 600;
+}
+.lang-nav span{
+  border-left:1px solid grey;
+  border-right:1px solid grey;
+  padding: 0 10px;
+
+}
+.main-nav li a:hover{
+  text-decoration: none;
+}
+.main-nav, .lang-nav{
+  display: inline-block;
+  font-size:12px;
+  text-transform: uppercase;
+}
+.lang-nav li:not(:last-child){
+  margin-right:10px;
+}
+/* struttura login button */
+
+.login__btn {
+  padding: 5px 20px;
+  background-color:#000;
+  color:#fff;
+  border-radius: 0;
+  font-weight: 600;
+  font-size:12px;
+}
+.login__btn:hover{
+  color:#fff;
+}
