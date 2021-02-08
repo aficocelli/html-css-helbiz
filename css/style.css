@@ -5,7 +5,10 @@ body{
 }
 
 /* layout top header */
-
+.top__header{
+  line-height: 60px;
+  height:60px;
+}
 /* struttura logo */
 .logo img{
   height:14px;
@@ -18,15 +21,17 @@ body{
 .main-nav li:not(:last-child){
   margin-right:40px;
 }
-.main-nav li a, .lang-nav span {
+.main-nav li a, .lang-nav button {
   color:#000;
   font-weight: 600;
 }
-.lang-nav span{
-  border-left:1px solid grey;
-  border-right:1px solid grey;
+.lang-nav button{
+  border:none;
+  border-left:1px solid #9B9B9B;
+  border-right:1px solid #9B9B9B;
   padding: 0 10px;
-
+  background-color: transparent;
+  line-height: normal;
 }
 .main-nav li a:hover{
   text-decoration: none;
