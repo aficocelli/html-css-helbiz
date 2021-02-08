@@ -47,12 +47,13 @@ body{
 /* struttura login button */
 
 .login__btn {
-  padding: 5px 20px;
+  padding: 10px 20px;
   background-color:#000;
   color:#fff;
   border-radius: 0;
   font-weight: 600;
-  font-size:12px;
+  font-size:14px;
+  text-transform: capitalize;
 }
 .login__btn:hover{
   color:#fff;
