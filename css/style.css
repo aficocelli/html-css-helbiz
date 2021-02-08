@@ -4,7 +4,9 @@ body{
   font-family: 'Open Sans', sans-serif;
   color:#000;
 }
-
+.bg__grey{
+  background-color:#FAFAFA;
+}
 /* layout top header */
 .top__header{
   line-height: 60px;
@@ -144,7 +146,7 @@ h1{
 /* struttura sezione old man */
 
 .old-man{
-  margin: 100px 0;
+  margin-top: 100px;
   position:relative;
 }
 .phone{
@@ -209,4 +211,10 @@ h1{
   .old-man:before{
     background-position:30%;
   }
+}
+
+/* struttura sezione carpisa */
+.carpisa{
+  height:200px;
+  margin-top:200px;
 }
