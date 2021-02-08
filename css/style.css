@@ -87,3 +87,46 @@ h1{
     font-size:56px;
   }
 }
+
+/* struttura main */
+.products{
+  margin-top: 50px;
+}
+
+/* struttura sezione prodotti */
+
+.box{
+  background-color: #FAFAFA;
+  padding: 80px 20px 30px 20px;
+}
+.name-product{
+  height:20px;
+}
+.img__product{
+  max-height:300px;
+  width:100%;
+}
+.box h2{
+  margin:30px 0;
+  font-size:20px;
+}
+.box a{
+  display: inline-block;
+  font-size:20px;
+  text-decoration: none;
+  display:block;
+}
+/* allineo immagini con altezze diverse */
+.link_box{
+  margin-bottom:60px;
+}
+.link_box_moto{
+  margin-bottom:30px;
+}
+
+/* responsive per immagini  */
+@media screen and (max-width:991px){
+  .img__product{
+    width:auto;
+  }
+}
