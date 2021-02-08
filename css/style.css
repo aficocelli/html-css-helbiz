@@ -9,6 +9,15 @@ body{
 .top__header{
   line-height: 60px;
   height:60px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index:10;
+}
+.container-fluid{
+  margin-top:100px;
 }
 /* struttura logo */
 .logo img{
@@ -135,7 +144,7 @@ h1{
 /* struttura sezione old man */
 
 .old-man{
-  margin-top: 100px;
+  margin: 100px 0;
   position:relative;
 }
 .phone{
@@ -182,7 +191,7 @@ h1{
   }
   .title-work:before{
     content:"";
-    height:200px;
+    height:220px;
     display:block;
   }
   .phone{
