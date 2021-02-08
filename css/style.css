@@ -140,9 +140,14 @@ h1{
 }
 .phone{
   position:absolute;
-  top: 40%;
+  top: 25%;
   left: 50%;
   transform: translatex(-50%);
+  background-image: url("../img/iphone-bg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 65%;
+  min-width:500px;
 }
 .phone img{
   width:70%;
@@ -168,4 +173,23 @@ h1{
 }
 .step-1 p{
   font-size:20px;
+}
+@media screen and (max-width:991px){
+
+  .title-work{
+    text-align:left;
+
+  }
+  .title-work:before{
+    content:"";
+    height:200px;
+    display:block;
+  }
+  .phone{
+    top:10%;
+    background-size:61%;
+  }
+  .phone img{
+    width: 65%;
+  }
 }
