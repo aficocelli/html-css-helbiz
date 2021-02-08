@@ -58,3 +58,32 @@ body{
 .login__btn:hover{
   color:#fff;
 }
+
+/* struttura hamburger menu */
+.hamburger-menu{
+  background-color: transparent;
+  font-size: 18px;
+}
+
+/* struttura hero */
+h1{
+  font-size: 105px;
+  font-weight: bold;
+  color:#000;
+}
+.hero-img img{
+  width:100%;
+}
+
+/* text responsive */
+@media screen and (max-width:992px){
+  h1{
+    font-size:66px;
+  }
+}
+
+@media screen and (max-width:767px){
+  h1{
+    font-size:56px;
+  }
+}
