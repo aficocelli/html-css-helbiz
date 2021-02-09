@@ -163,7 +163,7 @@ h1{
 .phone img{
   width:70%;
 }
-.old-man:before{
+.old-man::before{
   content:"";
   display:block;
   height:80vh;
@@ -191,7 +191,7 @@ h1{
     text-align:left;
 
   }
-  .title-work:before{
+  .title-work::before{
     content:"";
     height:220px;
     display:block;
@@ -208,13 +208,12 @@ h1{
     margin-top: 20px;
   }
 
-  .old-man:before{
+  .old-man::before{
     background-position:30%;
   }
 }
 
 /* struttura sezione carpisa */
 .carpisa{
-  height:200px;
-  margin-top:200px;
+  margin-top:230px;
 }
